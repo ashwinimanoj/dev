@@ -43,5 +43,19 @@
     "hooks": {
       "pre-push": "CI=true npm run test && npm run build"
     }
+  },
+  "jest": {
+    "coverageReporters": [
+      "text",
+      "text-summary"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!src/setupTests.js",
+      "!src/index.js",
+      "!src/common/component/App.js",
+      "!src/common/redux/configStore.js",
+      "!src/common/redux/rootReducer.js"
+    ]
   }
 }
