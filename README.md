@@ -1,5 +1,4 @@
-This project is meant to act as a React Redux template for future web dev projects.
-
+My personal website. A second attempt after about 3 years in the Software Development field.
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
