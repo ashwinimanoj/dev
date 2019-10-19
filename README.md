@@ -1,3 +1,7 @@
+---
+permalink: /index.html
+---
+
 My personal website. A second attempt after about 3 years in the Software Development field.
 
 
